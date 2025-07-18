@@ -11,7 +11,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo '🧪 Running tests...'
+                echo '🧪 Running tests in pro...'
                 sh 'echo Test step - usually run pytest or other tests here'
             }
         }
